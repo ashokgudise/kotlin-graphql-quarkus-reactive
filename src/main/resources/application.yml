@@ -1,0 +1,12 @@
+
+
+quarkus:
+  datasource:
+    db-kind: mysql
+    username:
+    password:
+
+    reactive:
+      url: mysql://localhost:3306/sysopsdb
+      max-size: 20
+
